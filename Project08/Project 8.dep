@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2404040210</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\clocks.c</file>
+      <file>$PROJ_DIR$\adc.c</file>
+      <file>$PROJ_DIR$\circle.c</file>
+      <file>$PROJ_DIR$\commands.c</file>
+      <file>$PROJ_DIR$\control.c</file>
+      <file>$PROJ_DIR$\functions.h</file>
+      <file>$PROJ_DIR$\hex_to_bcd.c</file>
+      <file>$PROJ_DIR$\init.c</file>
+      <file>$PROJ_DIR$\LCD.r43</file>
+      <file>$PROJ_DIR$\macros.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\circle.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\timers.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\switch.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\init.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt_port.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt_serial.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\hex_to_bcd.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\system.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt_port.pbi</file>
+      <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
+      <file>$PROJ_DIR$\Debug\List\Project 8.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\commands.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\commands.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\trans_recieve.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\trans_recieve.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\trans_recieve.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\commands.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430fr5739.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timers.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\control.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt_port.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\ports.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Project 8.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\clocks.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\clocks.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\init.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\switch.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Exe\Project 8.d43</file>
+      <file>$TOOLKIT_DIR$\config\linker\lnk430fr5739.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\switch.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\ports.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\hex_to_bcd.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\circle.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\Project 8.ulp</file>
+      <file>$PROJ_DIR$\Debug\Obj\circle.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\clocks.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\control.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt_serial.r43</file>
+      <file>$PROJ_DIR$\interrupt_port.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\interrupt_serial.c</file>
+      <file>$PROJ_DIR$\ports.c</file>
+      <file>$PROJ_DIR$\switch.c</file>
+      <file>$PROJ_DIR$\system.c</file>
+      <file>$PROJ_DIR$\timers.c</file>
+      <file>$PROJ_DIR$\trans_recieve.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\hex_to_bcd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timers.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\init.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt_serial.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ports.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\control.r43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system.__cstat.et</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\clocks.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 81 29 39 28 9 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 39 9 29 28 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 9 81 29 39 28 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 5 81 29 28 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\circle.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 81 29 39 28 9 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 5 9 29 28 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\commands.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 81 29 39 28 9 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 39 5 29 9 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\control.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 81 29 39 28 5 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 9 39 28 5 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\hex_to_bcd.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 9 81 29 39 28 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 39 81 29 28 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 81 29 39 28 9 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 5 9 29 28 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 21 52</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Project 8.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 53 20 36 10 64 22 80 57 77 35 66 8 41 79 55 45 76 25 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\interrupt_port.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 9 81 29 39 28 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 5 39 81 28 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 81 29 39 28 5 9 60 50 58 61 49 46 47 43 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 58 9 39 5 60 29 28 43 81 50 48 47 49 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\interrupt_serial.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 9 81 29 39 28 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 5 29 81 28 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ports.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 9 81 29 39 28 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 28 5 29 81 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\switch.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 81 29 39 28 9 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 5 9 29 28 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\system.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 81 29 39 28 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 29 39 28 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\timers.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 81 29 39 28 9 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 39 9 29 28 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\trans_recieve.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 81 29 39 28 9 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 39 9 29 28 81</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
